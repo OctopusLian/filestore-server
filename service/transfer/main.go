@@ -5,11 +5,11 @@ import (
 	"log"
 	"time"
 
-	"filestore-server/common"
-	"filestore-server/config"
-	"filestore-server/mq"
-	dbproxy "filestore-server/service/dbproxy/client"
-	"filestore-server/service/transfer/process"
+	"github.com/OctopusLian/filestore-server/common"
+	"github.com/OctopusLian/filestore-server/config"
+	"github.com/OctopusLian/filestore-server/mq"
+	dbproxy "github.com/OctopusLian/filestore-server/service/dbproxy/client"
+	"github.com/OctopusLian/filestore-server/service/transfer/process"
 
 	"github.com/micro/cli"
 	micro "github.com/micro/go-micro"
@@ -48,10 +48,10 @@ func startTranserService() {
 		return
 	}
 	log.Println("文件转移服务启动中，开始监听转移任务队列...")
-  
-  	// 初始化mq client
+
+	// 初始化mq client
 	mq.Init()
-  
+
 	mq.StartConsume(
 		config.TransOSSQueueName,
 		"transfer_oss",

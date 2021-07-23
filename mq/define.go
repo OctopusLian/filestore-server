@@ -1,7 +1,7 @@
 package mq
 
 import (
-	cmn "filestore-server/common"
+	cmn "github.com/OctopusLian/filestore-server/common"
 )
 
 // TransferData : 将要写到rabbitmq的数据的结构体

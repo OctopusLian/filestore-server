@@ -1,7 +1,7 @@
 package main
 
 import (
-	"filestore-server/service/apigw/route"
+	"github.com/OctopusLian/filestore-server/service/apigw/route"
 )
 
 func main() {

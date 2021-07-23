@@ -1,7 +1,7 @@
 package route
 
 import (
-	"filestore-server/service/download/api"
+	"github.com/OctopusLian/filestore-server/service/download/api"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"

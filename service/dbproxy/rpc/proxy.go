@@ -5,9 +5,9 @@ import (
 	"context"
 	"encoding/json"
 
-	"filestore-server/service/dbproxy/mapper"
-	"filestore-server/service/dbproxy/orm"
-	dbProxy "filestore-server/service/dbproxy/proto"
+	"github.com/OctopusLian/filestore-server/service/dbproxy/mapper"
+	"github.com/OctopusLian/filestore-server/service/dbproxy/orm"
+	dbProxy "github.com/OctopusLian/filestore-server/service/dbproxy/proto"
 )
 
 // DBProxy : DBProxy结构体

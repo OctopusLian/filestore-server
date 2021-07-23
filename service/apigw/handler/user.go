@@ -15,12 +15,14 @@ import (
 	"github.com/micro/go-plugins/wrapper/breaker/hystrix"
 	"github.com/micro/go-plugins/wrapper/ratelimiter/ratelimit"
 
-	cmn "filestore-server/common"
-	cfg "filestore-server/config"
-	userProto "filestore-server/service/account/proto"
-	dlProto "filestore-server/service/download/proto"
-	upProto "filestore-server/service/upload/proto"
-	"filestore-server/util"
+	"github.com/OctopusLian/filestore-server/util"
+
+	userProto "github.com/OctopusLian/filestore-server/service/account/proto"
+	dlProto "github.com/OctopusLian/filestore-server/service/download/proto"
+	upProto "github.com/OctopusLian/filestore-server/service/upload/proto"
+
+	cmn "github.com/OctopusLian/filestore-server/common"
+	cfg "github.com/OctopusLian/filestore-server/config"
 )
 
 var (

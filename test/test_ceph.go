@@ -1,8 +1,9 @@
 package main
 
 import (
-	"filestore-server/store/ceph"
 	"fmt"
+
+	"github.com/OctopusLian/filestore-server/store/ceph"
 
 	"gopkg.in/amz.v1/s3"
 )

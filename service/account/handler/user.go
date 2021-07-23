@@ -5,12 +5,16 @@ import (
 	"fmt"
 	"time"
 
-	"filestore-server/common"
-	"filestore-server/config"
-	cfg "filestore-server/config"
-	proto "filestore-server/service/account/proto"
-	dbcli "filestore-server/service/dbproxy/client"
-	"filestore-server/util"
+	"github.com/OctopusLian/filestore-server/util"
+
+	dbcli "github.com/OctopusLian/filestore-server/service/dbproxy/client"
+
+	proto "github.com/OctopusLian/filestore-server/service/account/proto"
+
+	cfg "github.com/OctopusLian/filestore-server/config"
+
+	"github.com/OctopusLian/filestore-server/common"
+	"github.com/OctopusLian/filestore-server/config"
 )
 
 // User : 用于实现UserServiceHandler接口的对象

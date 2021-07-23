@@ -9,10 +9,11 @@ import (
 
 	// k8s "github.com/micro/kubernetes/go/micro"
 
-	"filestore-server/common"
-	"filestore-server/service/account/handler"
-	proto "filestore-server/service/account/proto"
-	dbproxy "filestore-server/service/dbproxy/client"
+	proto "github.com/OctopusLian/filestore-server/service/account/proto"
+	dbproxy "github.com/OctopusLian/filestore-server/service/dbproxy/client"
+
+	"github.com/OctopusLian/filestore-server/common"
+	"github.com/OctopusLian/filestore-server/service/account/handler"
 )
 
 func main() {

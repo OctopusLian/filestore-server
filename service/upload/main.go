@@ -1,23 +1,29 @@
 package main
 
 import (
-	"filestore-server/config"
-	"filestore-server/mq"
 	"fmt"
 	"log"
 	"os"
 	"time"
 
+	"github.com/OctopusLian/filestore-server/config"
+	"github.com/OctopusLian/filestore-server/mq"
+
 	"github.com/micro/cli"
 	micro "github.com/micro/go-micro"
 	_ "github.com/micro/go-plugins/registry/kubernetes"
 
-	"filestore-server/common"
-	dbproxy "filestore-server/service/dbproxy/client"
-	cfg "filestore-server/service/upload/config"
-	upProto "filestore-server/service/upload/proto"
-	"filestore-server/service/upload/route"
-	upRpc "filestore-server/service/upload/rpc"
+	upRpc "github.com/OctopusLian/filestore-server/service/upload/rpc"
+
+	"github.com/OctopusLian/filestore-server/service/upload/route"
+
+	upProto "github.com/OctopusLian/filestore-server/service/upload/proto"
+
+	cfg "github.com/OctopusLian/filestore-server/service/upload/config"
+
+	dbproxy "github.com/OctopusLian/filestore-server/service/dbproxy/client"
+
+	"github.com/OctopusLian/filestore-server/common"
 )
 
 func startRPCService() {

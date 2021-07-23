@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	mydb "filestore-server/service/dbproxy/conn"
+	mydb "github.com/OctopusLian/filestore-server/service/dbproxy/conn"
 )
 
 // OnUserFileUploadFinished : 更新用户文件表

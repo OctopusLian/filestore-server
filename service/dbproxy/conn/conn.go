@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	cfg "filestore-server/service/dbproxy/config"
+	cfg "github.com/OctopusLian/filestore-server/service/dbproxy/config"
 
 	_ "github.com/go-sql-driver/mysql"
 )

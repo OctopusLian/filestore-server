@@ -1,8 +1,9 @@
 package mq
 
 import (
-	"filestore-server/config"
 	"log"
+
+	"github.com/OctopusLian/filestore-server/config"
 
 	"github.com/streadway/amqp"
 )
