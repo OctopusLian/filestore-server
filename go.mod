@@ -1,4 +1,4 @@
-module github.com/OctopusLian/filestore-server
+module filestore-server
 
 go 1.15
 
