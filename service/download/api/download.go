@@ -8,14 +8,14 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/OctopusLian/filestore-server/store/ceph"
-	"github.com/OctopusLian/filestore-server/store/oss"
+	"filestore-server/store/ceph"
+	"filestore-server/store/oss"
 
-	dbcli "github.com/OctopusLian/filestore-server/service/dbproxy/client"
+	dbcli "filestore-server/service/dbproxy/client"
 
-	cfg "github.com/OctopusLian/filestore-server/config"
+	cfg "filestore-server/config"
 
-	"github.com/OctopusLian/filestore-server/common"
+	"filestore-server/common"
 	// dlcfg "filestore-server/service/download/config"
 )
 

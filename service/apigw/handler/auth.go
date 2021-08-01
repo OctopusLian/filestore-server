@@ -3,8 +3,8 @@ package handler
 import (
 	"net/http"
 
-	"github.com/OctopusLian/filestore-server/common"
-	"github.com/OctopusLian/filestore-server/util"
+	"filestore-server/common"
+	"filestore-server/util"
 
 	"github.com/gin-gonic/gin"
 )

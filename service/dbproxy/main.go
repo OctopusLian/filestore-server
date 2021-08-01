@@ -4,16 +4,16 @@ import (
 	"log"
 	"time"
 
-	"github.com/OctopusLian/filestore-server/common"
-	"github.com/OctopusLian/filestore-server/service/dbproxy/config"
+	"filestore-server/common"
+	"filestore-server/service/dbproxy/config"
 
 	"github.com/micro/cli"
 	"github.com/micro/go-micro"
 	_ "github.com/micro/go-plugins/registry/kubernetes"
 
-	dbConn "github.com/OctopusLian/filestore-server/service/dbproxy/conn"
-	dbProxy "github.com/OctopusLian/filestore-server/service/dbproxy/proto"
-	dbRpc "github.com/OctopusLian/filestore-server/service/dbproxy/rpc"
+	dbConn "filestore-server/service/dbproxy/conn"
+	dbProxy "filestore-server/service/dbproxy/proto"
+	dbRpc "filestore-server/service/dbproxy/rpc"
 )
 
 func startRpcService() {

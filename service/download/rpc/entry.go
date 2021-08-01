@@ -3,8 +3,8 @@ package rpc
 import (
 	"context"
 
-	cfg "github.com/OctopusLian/filestore-server/service/download/config"
-	dlProto "github.com/OctopusLian/filestore-server/service/download/proto"
+	cfg "filestore-server/service/download/config"
+	dlProto "filestore-server/service/download/proto"
 )
 
 // Dwonload :download结构体

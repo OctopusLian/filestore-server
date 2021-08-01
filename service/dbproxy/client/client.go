@@ -8,9 +8,9 @@ import (
 
 	"github.com/micro/go-micro"
 
-	dbProto "github.com/OctopusLian/filestore-server/service/dbproxy/proto"
+	dbProto "filestore-server/service/dbproxy/proto"
 
-	"github.com/OctopusLian/filestore-server/service/dbproxy/orm"
+	"filestore-server/service/dbproxy/orm"
 )
 
 // FileMeta : 文件元信息结构

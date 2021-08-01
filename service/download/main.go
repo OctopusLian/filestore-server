@@ -7,13 +7,13 @@ import (
 	micro "github.com/micro/go-micro"
 	_ "github.com/micro/go-plugins/registry/kubernetes"
 
-	dlProto "github.com/OctopusLian/filestore-server/service/download/proto"
-	"github.com/OctopusLian/filestore-server/service/download/route"
+	dlProto "filestore-server/service/download/proto"
+	"filestore-server/service/download/route"
 
-	"github.com/OctopusLian/filestore-server/common"
-	dbproxy "github.com/OctopusLian/filestore-server/service/dbproxy/client"
-	cfg "github.com/OctopusLian/filestore-server/service/download/config"
-	dlRpc "github.com/OctopusLian/filestore-server/service/download/rpc"
+	"filestore-server/common"
+	dbproxy "filestore-server/service/dbproxy/client"
+	cfg "filestore-server/service/download/config"
+	dlRpc "filestore-server/service/download/rpc"
 )
 
 func startRPCService() {

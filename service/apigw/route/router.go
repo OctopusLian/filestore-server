@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/OctopusLian/filestore-server/assets"
-	"github.com/OctopusLian/filestore-server/service/apigw/handler"
+	"filestore-server/assets"
+	"filestore-server/service/apigw/handler"
 
 	"github.com/gin-gonic/contrib/static"
 	assetfs "github.com/moxiaomomo/go-bindata-assetfs"

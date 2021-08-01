@@ -14,11 +14,11 @@ import (
 	"github.com/garyburd/redigo/redis"
 	"github.com/gin-gonic/gin"
 
-	rPool "github.com/OctopusLian/filestore-server/cache/redis"
-	"github.com/OctopusLian/filestore-server/config"
-	cfg "github.com/OctopusLian/filestore-server/config"
-	dbcli "github.com/OctopusLian/filestore-server/service/dbproxy/client"
-	"github.com/OctopusLian/filestore-server/util"
+	rPool "filestore-server/cache/redis"
+	"filestore-server/config"
+	cfg "filestore-server/config"
+	dbcli "filestore-server/service/dbproxy/client"
+	"filestore-server/util"
 )
 
 // MultipartUploadInfo : 初始化信息

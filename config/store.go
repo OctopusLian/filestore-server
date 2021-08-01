@@ -1,7 +1,7 @@
 package config
 
 import (
-	cmn "github.com/OctopusLian/filestore-server/common"
+	cmn "filestore-server/common"
 )
 
 const (

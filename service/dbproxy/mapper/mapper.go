@@ -4,7 +4,7 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/OctopusLian/filestore-server/service/dbproxy/orm"
+	"filestore-server/service/dbproxy/orm"
 )
 
 var funcs = map[string]interface{}{

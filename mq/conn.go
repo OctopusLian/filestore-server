@@ -3,7 +3,7 @@ package mq
 import (
 	"log"
 
-	"github.com/OctopusLian/filestore-server/config"
+	"filestore-server/config"
 
 	"github.com/streadway/amqp"
 )

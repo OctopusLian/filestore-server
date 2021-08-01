@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/OctopusLian/filestore-server/mq"
-	dbcli "github.com/OctopusLian/filestore-server/service/dbproxy/client"
-	"github.com/OctopusLian/filestore-server/store/oss"
+	"filestore-server/mq"
+	dbcli "filestore-server/service/dbproxy/client"
+	"filestore-server/store/oss"
 )
 
 // Transfer : 处理文件转移

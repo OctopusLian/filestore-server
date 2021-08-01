@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"log"
 
-	mydb "github.com/OctopusLian/filestore-server/service/dbproxy/conn"
+	mydb "filestore-server/service/dbproxy/conn"
 )
 
 // OnFileUploadFinished : 文件上传完成，保存meta

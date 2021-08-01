@@ -1,7 +1,7 @@
 package mq
 
 import (
-	"github.com/OctopusLian/filestore-server/config"
+	"filestore-server/config"
 
 	"github.com/streadway/amqp"
 )

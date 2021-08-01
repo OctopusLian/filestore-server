@@ -3,8 +3,8 @@ package rpc
 import (
 	"context"
 
-	cfg "github.com/OctopusLian/filestore-server/service/upload/config"
-	upProto "github.com/OctopusLian/filestore-server/service/upload/proto"
+	cfg "filestore-server/service/upload/config"
+	upProto "filestore-server/service/upload/proto"
 )
 
 // Upload : upload结构体

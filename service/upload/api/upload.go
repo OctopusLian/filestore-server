@@ -12,15 +12,15 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/OctopusLian/filestore-server/mq"
-	dbcli "github.com/OctopusLian/filestore-server/service/dbproxy/client"
-	"github.com/OctopusLian/filestore-server/service/dbproxy/orm"
-	"github.com/OctopusLian/filestore-server/store/ceph"
-	"github.com/OctopusLian/filestore-server/store/oss"
-	"github.com/OctopusLian/filestore-server/util"
+	"filestore-server/mq"
+	dbcli "filestore-server/service/dbproxy/client"
+	"filestore-server/service/dbproxy/orm"
+	"filestore-server/store/ceph"
+	"filestore-server/store/oss"
+	"filestore-server/util"
 
-	cmn "github.com/OctopusLian/filestore-server/common"
-	cfg "github.com/OctopusLian/filestore-server/config"
+	cmn "filestore-server/common"
+	cfg "filestore-server/config"
 )
 
 // DoUploadHandler ： 处理文件上传

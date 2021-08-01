@@ -1,7 +1,7 @@
 package route
 
 import (
-	"github.com/OctopusLian/filestore-server/service/upload/api"
+	"filestore-server/service/upload/api"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"

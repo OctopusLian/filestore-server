@@ -6,24 +6,24 @@ import (
 	"os"
 	"time"
 
-	"github.com/OctopusLian/filestore-server/config"
-	"github.com/OctopusLian/filestore-server/mq"
+	"filestore-server/config"
+	"filestore-server/mq"
 
 	"github.com/micro/cli"
 	micro "github.com/micro/go-micro"
 	_ "github.com/micro/go-plugins/registry/kubernetes"
 
-	upRpc "github.com/OctopusLian/filestore-server/service/upload/rpc"
+	upRpc "filestore-server/service/upload/rpc"
 
-	"github.com/OctopusLian/filestore-server/service/upload/route"
+	"filestore-server/service/upload/route"
 
-	upProto "github.com/OctopusLian/filestore-server/service/upload/proto"
+	upProto "filestore-server/service/upload/proto"
 
-	cfg "github.com/OctopusLian/filestore-server/service/upload/config"
+	cfg "filestore-server/service/upload/config"
 
-	dbproxy "github.com/OctopusLian/filestore-server/service/dbproxy/client"
+	dbproxy "filestore-server/service/dbproxy/client"
 
-	"github.com/OctopusLian/filestore-server/common"
+	"filestore-server/common"
 )
 
 func startRPCService() {

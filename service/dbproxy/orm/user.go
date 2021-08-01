@@ -3,7 +3,7 @@ package orm
 import (
 	"log"
 
-	mydb "github.com/OctopusLian/filestore-server/service/dbproxy/conn"
+	mydb "filestore-server/service/dbproxy/conn"
 )
 
 // UserSignup : 通过用户名及密码完成user表的注册操作

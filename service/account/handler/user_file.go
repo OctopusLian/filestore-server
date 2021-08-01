@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 
-	proto "github.com/OctopusLian/filestore-server/service/account/proto"
-	dbcli "github.com/OctopusLian/filestore-server/service/dbproxy/client"
+	proto "filestore-server/service/account/proto"
+	dbcli "filestore-server/service/dbproxy/client"
 
-	"github.com/OctopusLian/filestore-server/common"
+	"filestore-server/common"
 )
 
 // UserFiles : 获取用户文件列表

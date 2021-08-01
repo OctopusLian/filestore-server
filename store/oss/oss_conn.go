@@ -3,7 +3,7 @@ package oss
 import (
 	"fmt"
 
-	cfg "github.com/OctopusLian/filestore-server/config"
+	cfg "filestore-server/config"
 
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 )
